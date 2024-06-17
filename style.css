@@ -1,0 +1,43 @@
+body {
+
+    background-image: url(bg.png);
+}
+
+.font {
+    font-family: Georgia, "Times New Roman";
+}
+
+.container {
+    margin: 20px 100px;
+}
+
+ .title {
+    font-size: 30px;
+
+    color: #000000;
+
+    text-align: center;
+ }
+
+ .text {
+    line-height: 25px;
+ }
+
+ .button {
+    font-family: Arial sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .block {
+    font-size: 20px;
+    text-indent: 25px;
+    font-family: Arial sans-serif;
+ }
+
+ .li {
+    font-size: 20px;
+    font-family: Arial sans-serif;
+ }
