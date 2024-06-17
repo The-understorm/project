@@ -44,7 +44,7 @@ if ($result->num_rows > 0) {
         $preferences = explode('.', $row["preferences"]);
         foreach ($preferences as $key => $value) {
             $men_preferences[$key][] = $value;
-            echo $value . ' ';
+            echo 'w' . $value . ' ';
         }
         echo '<br>';
     }
@@ -65,7 +65,7 @@ if ($result->num_rows > 0) {
         $preferences = explode('.', $row["preferences"]);
         foreach ($preferences as $key => $value) {
             $women_preferences[$key][] = $value;
-            echo $value . ' ';
+            echo 'm' . $value . ' ';
         }
         echo '<br>';
     }
